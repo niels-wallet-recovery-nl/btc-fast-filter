@@ -9,7 +9,8 @@ The tool consists of two scripts:
 
 ## Quick Start
 
-### 1. Build Bloom filter from address list bash # From file (50M addresses, 1% false positive rate) - skip if you want to sue prebuild filter
+### 1. Build Bloom filter from address list bash # From file (50M addresses, 1% false positive rate) - skip if you want to use prebuild filter
+=> build the filter youserlf with the latest UTXO address snapshot from https://blockchair.com/dumps (select `Bitcoin / addresses`) 
 
 **From STDIN (pipe)**
 
